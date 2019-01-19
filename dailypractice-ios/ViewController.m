@@ -19,7 +19,7 @@
 //懒加载
 -(NSArray *)groups{
     if (_groups==nil) {
-        NSString *path=[[NSBundle mainBundle] pathForResource:@"cars.plist" ofType:nil];
+        NSString *path=[[NSBundle mainBundle] pathForResource:@"car.plist" ofType:nil];
         NSArray *arrayDict=[NSArray arrayWithContentsOfFile:path];
         
         NSMutableArray *arrayModels=[NSMutableArray array];

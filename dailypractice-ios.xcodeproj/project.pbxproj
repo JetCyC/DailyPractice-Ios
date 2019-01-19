@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D4AE2BA21F306280055F2ED /* CYGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2B221F306270055F2ED /* CYGroup.m */; };
-		2D4AE2BB21F306280055F2ED /* CZCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2B321F306270055F2ED /* CZCar.m */; };
-		2D4AE2BC21F306280055F2ED /* CYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2B521F306270055F2ED /* CYCar.m */; };
-		2D4AE2C421F30E1D0055F2ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2C221F30E1C0055F2ED /* ViewController.m */; };
-		2D4AE2C721F30E720055F2ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2C521F30E720055F2ED /* AppDelegate.m */; };
-		2D4AE2C921F30E940055F2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2C821F30E940055F2ED /* Assets.xcassets */; };
-		2D4AE2CB21F30EC80055F2ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2CA21F30EC70055F2ED /* main.m */; };
-		2D4AE2CD21F30EFE0055F2ED /* car.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2CC21F30EFE0055F2ED /* car.plist */; };
-		2D4AE2D221F30F8A0055F2ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2D021F30F8A0055F2ED /* Main.storyboard */; };
 		2D4AE2DD21F317380055F2ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2DC21F317380055F2ED /* Info.plist */; };
+		2D4AE2E521F31CB10055F2ED /* CZCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2DF21F31CAF0055F2ED /* CZCar.m */; };
+		2D4AE2E621F31CB10055F2ED /* CYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2E221F31CB00055F2ED /* CYCar.m */; };
+		2D4AE2E721F31CB10055F2ED /* CYGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2E421F31CB10055F2ED /* CYGroup.m */; };
+		2D4AE2E921F31CE60055F2ED /* car.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2E821F31CE60055F2ED /* car.plist */; };
+		2D4AE2EB21F31D160055F2ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2EA21F31D160055F2ED /* main.m */; };
+		2D4AE2ED21F31D6E0055F2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2EC21F31D6E0055F2ED /* Assets.xcassets */; };
+		2D4AE2F021F31DCA0055F2ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2EF21F31DCA0055F2ED /* ViewController.m */; };
+		2D4AE2F321F324030055F2ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2F221F324030055F2ED /* AppDelegate.m */; };
+		2D7FFB1A21F324D700430961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFB1921F324D700430961 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D4AE2B121F306270055F2ED /* CYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYCar.h; path = ../../UiTableView/UiTableView/model/CYCar.h; sourceTree = "<group>"; };
-		2D4AE2B221F306270055F2ED /* CYGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYGroup.m; path = ../../UiTableView/UiTableView/model/CYGroup.m; sourceTree = "<group>"; };
-		2D4AE2B321F306270055F2ED /* CZCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CZCar.m; path = ../../UiTableView/UiTableView/model/CZCar.m; sourceTree = "<group>"; };
-		2D4AE2B521F306270055F2ED /* CYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYCar.m; path = ../../UiTableView/UiTableView/model/CYCar.m; sourceTree = "<group>"; };
-		2D4AE2B621F306270055F2ED /* CZCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CZCar.h; path = ../../UiTableView/UiTableView/model/CZCar.h; sourceTree = "<group>"; };
-		2D4AE2B721F306270055F2ED /* CYGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYGroup.h; path = ../../UiTableView/UiTableView/model/CYGroup.h; sourceTree = "<group>"; };
-		2D4AE2C221F30E1C0055F2ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../UiTableView/UiTableView/ViewController.m; sourceTree = "<group>"; };
-		2D4AE2C321F30E1C0055F2ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../UiTableView/UiTableView/ViewController.h; sourceTree = "<group>"; };
-		2D4AE2C521F30E720055F2ED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../UiTableView/UiTableView/AppDelegate.m; sourceTree = "<group>"; };
-		2D4AE2C621F30E720055F2ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../UiTableView/UiTableView/AppDelegate.h; sourceTree = "<group>"; };
-		2D4AE2C821F30E940055F2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../UiTableView/UiTableView/Assets.xcassets; sourceTree = "<group>"; };
-		2D4AE2CA21F30EC70055F2ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../UiTableView/UiTableView/main.m; sourceTree = "<group>"; };
-		2D4AE2CC21F30EFE0055F2ED /* car.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = car.plist; path = ../../UiTableView/UiTableView/car.plist; sourceTree = "<group>"; };
-		2D4AE2D121F30F8A0055F2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../UiTableView/UiTableView/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D4AE2DC21F317380055F2ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4AE2DF21F31CAF0055F2ED /* CZCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCar.m; sourceTree = "<group>"; };
+		2D4AE2E021F31CAF0055F2ED /* CZCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCar.h; sourceTree = "<group>"; };
+		2D4AE2E121F31CB00055F2ED /* CYGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGroup.h; sourceTree = "<group>"; };
+		2D4AE2E221F31CB00055F2ED /* CYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCar.m; sourceTree = "<group>"; };
+		2D4AE2E321F31CB00055F2ED /* CYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCar.h; sourceTree = "<group>"; };
+		2D4AE2E421F31CB10055F2ED /* CYGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGroup.m; sourceTree = "<group>"; };
+		2D4AE2E821F31CE60055F2ED /* car.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = car.plist; sourceTree = "<group>"; };
+		2D4AE2EA21F31D160055F2ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D4AE2EC21F31D6E0055F2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4AE2EE21F31DCA0055F2ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D4AE2EF21F31DCA0055F2ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D4AE2F121F323F90055F2ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D4AE2F221F324030055F2ED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D7FFB1921F324D700430961 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2D9005B121F3034100C21EF9 /* dailypractice-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dailypractice-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,21 +68,21 @@
 		2D9005B321F3034100C21EF9 /* dailypractice-ios */ = {
 			isa = PBXGroup;
 			children = (
+				2D7FFB1921F324D700430961 /* Main.storyboard */,
+				2D4AE2F221F324030055F2ED /* AppDelegate.m */,
+				2D4AE2F121F323F90055F2ED /* AppDelegate.h */,
+				2D4AE2EE21F31DCA0055F2ED /* ViewController.h */,
+				2D4AE2EF21F31DCA0055F2ED /* ViewController.m */,
+				2D4AE2EC21F31D6E0055F2ED /* Assets.xcassets */,
+				2D4AE2EA21F31D160055F2ED /* main.m */,
+				2D4AE2E821F31CE60055F2ED /* car.plist */,
+				2D4AE2E321F31CB00055F2ED /* CYCar.h */,
+				2D4AE2E221F31CB00055F2ED /* CYCar.m */,
+				2D4AE2E121F31CB00055F2ED /* CYGroup.h */,
+				2D4AE2E421F31CB10055F2ED /* CYGroup.m */,
+				2D4AE2E021F31CAF0055F2ED /* CZCar.h */,
+				2D4AE2DF21F31CAF0055F2ED /* CZCar.m */,
 				2D4AE2DC21F317380055F2ED /* Info.plist */,
-				2D4AE2D021F30F8A0055F2ED /* Main.storyboard */,
-				2D4AE2CC21F30EFE0055F2ED /* car.plist */,
-				2D4AE2CA21F30EC70055F2ED /* main.m */,
-				2D4AE2C821F30E940055F2ED /* Assets.xcassets */,
-				2D4AE2C621F30E720055F2ED /* AppDelegate.h */,
-				2D4AE2C521F30E720055F2ED /* AppDelegate.m */,
-				2D4AE2C321F30E1C0055F2ED /* ViewController.h */,
-				2D4AE2C221F30E1C0055F2ED /* ViewController.m */,
-				2D4AE2B121F306270055F2ED /* CYCar.h */,
-				2D4AE2B221F306270055F2ED /* CYGroup.m */,
-				2D4AE2B321F306270055F2ED /* CZCar.m */,
-				2D4AE2B521F306270055F2ED /* CYCar.m */,
-				2D4AE2B621F306270055F2ED /* CZCar.h */,
-				2D4AE2B721F306270055F2ED /* CYGroup.h */,
 			);
 			path = "dailypractice-ios";
 			sourceTree = "<group>";
@@ -144,10 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4AE2E921F31CE60055F2ED /* car.plist in Resources */,
 				2D4AE2DD21F317380055F2ED /* Info.plist in Resources */,
-				2D4AE2CD21F30EFE0055F2ED /* car.plist in Resources */,
-				2D4AE2C921F30E940055F2ED /* Assets.xcassets in Resources */,
-				2D4AE2D221F30F8A0055F2ED /* Main.storyboard in Resources */,
+				2D4AE2ED21F31D6E0055F2ED /* Assets.xcassets in Resources */,
+				2D7FFB1A21F324D700430961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,27 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4AE2C421F30E1D0055F2ED /* ViewController.m in Sources */,
-				2D4AE2BB21F306280055F2ED /* CZCar.m in Sources */,
-				2D4AE2BC21F306280055F2ED /* CYCar.m in Sources */,
-				2D4AE2BA21F306280055F2ED /* CYGroup.m in Sources */,
-				2D4AE2CB21F30EC80055F2ED /* main.m in Sources */,
-				2D4AE2C721F30E720055F2ED /* AppDelegate.m in Sources */,
+				2D4AE2F021F31DCA0055F2ED /* ViewController.m in Sources */,
+				2D4AE2E521F31CB10055F2ED /* CZCar.m in Sources */,
+				2D4AE2F321F324030055F2ED /* AppDelegate.m in Sources */,
+				2D4AE2E621F31CB10055F2ED /* CYCar.m in Sources */,
+				2D4AE2E721F31CB10055F2ED /* CYGroup.m in Sources */,
+				2D4AE2EB21F31D160055F2ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2D4AE2D021F30F8A0055F2ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D4AE2D121F30F8A0055F2ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2D9005C521F3034300C21EF9 /* Debug */ = {
