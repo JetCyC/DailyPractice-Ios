@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CYGroup.h"
 #import "CZCar.h"
+#import "CZCarCell.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -42,7 +43,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //self.tableView.dataSource=self;
+    //self.tableView.rowHeight=60;
     NSLog(@"viewDidLoad%@",@"viewDidLoad");
 }
 
@@ -70,16 +71,8 @@
     CZCar *car=group.cars[indexPath.row];
     //2设置单元格
     //2.1声名一个重用id
-    static NSString *ID=@"car_cell";
-    //2.2根据重用id去缓存池中获取对应的cell对象
-    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
-    //2.3如果没有获取到，那么就创建一个
-    if (cell==nil) {
-        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-    }
-    //3设置单元格内容
-    cell.imageView.image=[UIImage imageNamed:car.icon];
-    cell.textLabel.text=car.name;
+    CZCarCell *cell=[CZCarCell carCellWithTableView:tableView];
+    cell.czCars=car;//设置cell的值
     //4返回单元格
     return cell;
 }
@@ -137,18 +130,6 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

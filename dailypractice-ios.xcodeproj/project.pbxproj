@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2D4AE2DD21F317380055F2ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2DC21F317380055F2ED /* Info.plist */; };
 		2D4AE2E521F31CB10055F2ED /* CZCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2DF21F31CAF0055F2ED /* CZCar.m */; };
-		2D4AE2E621F31CB10055F2ED /* CYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2E221F31CB00055F2ED /* CYCar.m */; };
 		2D4AE2E721F31CB10055F2ED /* CYGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2E421F31CB10055F2ED /* CYGroup.m */; };
 		2D4AE2E921F31CE60055F2ED /* car.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D4AE2E821F31CE60055F2ED /* car.plist */; };
 		2D4AE2EB21F31D160055F2ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2EA21F31D160055F2ED /* main.m */; };
@@ -17,6 +16,9 @@
 		2D4AE2F021F31DCA0055F2ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2EF21F31DCA0055F2ED /* ViewController.m */; };
 		2D4AE2F321F324030055F2ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AE2F221F324030055F2ED /* AppDelegate.m */; };
 		2D7FFB1A21F324D700430961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFB1921F324D700430961 /* Main.storyboard */; };
+		2D7FFB2321F343CF00430961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFB2221F343CF00430961 /* LaunchScreen.storyboard */; };
+		2D7FFB2721F34DF400430961 /* CZCarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFB2621F34DF400430961 /* CZCarCell.xib */; };
+		2D7FFB2A21F3532700430961 /* CZCarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FFB2921F3532700430961 /* CZCarCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,6 @@
 		2D4AE2DF21F31CAF0055F2ED /* CZCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCar.m; sourceTree = "<group>"; };
 		2D4AE2E021F31CAF0055F2ED /* CZCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCar.h; sourceTree = "<group>"; };
 		2D4AE2E121F31CB00055F2ED /* CYGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGroup.h; sourceTree = "<group>"; };
-		2D4AE2E221F31CB00055F2ED /* CYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCar.m; sourceTree = "<group>"; };
-		2D4AE2E321F31CB00055F2ED /* CYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCar.h; sourceTree = "<group>"; };
 		2D4AE2E421F31CB10055F2ED /* CYGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGroup.m; sourceTree = "<group>"; };
 		2D4AE2E821F31CE60055F2ED /* car.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = car.plist; sourceTree = "<group>"; };
 		2D4AE2EA21F31D160055F2ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +35,10 @@
 		2D4AE2F121F323F90055F2ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D4AE2F221F324030055F2ED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2D7FFB1921F324D700430961 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2D7FFB2221F343CF00430961 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D7FFB2621F34DF400430961 /* CZCarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CZCarCell.xib; sourceTree = "<group>"; };
+		2D7FFB2821F3532700430961 /* CZCarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZCarCell.h; sourceTree = "<group>"; };
+		2D7FFB2921F3532700430961 /* CZCarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCarCell.m; sourceTree = "<group>"; };
 		2D9005B121F3034100C21EF9 /* dailypractice-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dailypractice-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,14 +65,41 @@
 		2D7FFB1F21F326B800430961 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				2D4AE2E321F31CB00055F2ED /* CYCar.h */,
-				2D4AE2E221F31CB00055F2ED /* CYCar.m */,
 				2D4AE2E121F31CB00055F2ED /* CYGroup.h */,
 				2D4AE2E421F31CB10055F2ED /* CYGroup.m */,
 				2D4AE2E021F31CAF0055F2ED /* CZCar.h */,
 				2D4AE2DF21F31CAF0055F2ED /* CZCar.m */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		2D7FFB2121F3432D00430961 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2D7FFB2221F343CF00430961 /* LaunchScreen.storyboard */,
+				2D7FFB1921F324D700430961 /* Main.storyboard */,
+				2D7FFB2621F34DF400430961 /* CZCarCell.xib */,
+				2D7FFB2821F3532700430961 /* CZCarCell.h */,
+				2D7FFB2921F3532700430961 /* CZCarCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D7FFB2421F3445D00430961 /* others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		2D7FFB2521F344D900430961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4AE2EA21F31D160055F2ED /* main.m */,
+				2D4AE2EC21F31D6E0055F2ED /* Assets.xcassets */,
+				2D4AE2E821F31CE60055F2ED /* car.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2D9005A821F3034100C21EF9 = {
@@ -90,15 +121,14 @@
 		2D9005B321F3034100C21EF9 /* dailypractice-ios */ = {
 			isa = PBXGroup;
 			children = (
+				2D4AE2F121F323F90055F2ED /* AppDelegate.h */,
+				2D4AE2F221F324030055F2ED /* AppDelegate.m */,
+				2D4AE2DC21F317380055F2ED /* Info.plist */,
+				2D7FFB2521F344D900430961 /* Supporting Files */,
+				2D7FFB2421F3445D00430961 /* others */,
+				2D7FFB2121F3432D00430961 /* view */,
 				2D7FFB1F21F326B800430961 /* model */,
 				2D7FFB1E21F3261400430961 /* controller */,
-				2D7FFB1921F324D700430961 /* Main.storyboard */,
-				2D4AE2F221F324030055F2ED /* AppDelegate.m */,
-				2D4AE2F121F323F90055F2ED /* AppDelegate.h */,
-				2D4AE2EC21F31D6E0055F2ED /* Assets.xcassets */,
-				2D4AE2EA21F31D160055F2ED /* main.m */,
-				2D4AE2E821F31CE60055F2ED /* car.plist */,
-				2D4AE2DC21F317380055F2ED /* Info.plist */,
 			);
 			path = "dailypractice-ios";
 			sourceTree = "<group>";
@@ -163,7 +193,9 @@
 				2D4AE2E921F31CE60055F2ED /* car.plist in Resources */,
 				2D4AE2DD21F317380055F2ED /* Info.plist in Resources */,
 				2D4AE2ED21F31D6E0055F2ED /* Assets.xcassets in Resources */,
+				2D7FFB2321F343CF00430961 /* LaunchScreen.storyboard in Resources */,
 				2D7FFB1A21F324D700430961 /* Main.storyboard in Resources */,
+				2D7FFB2721F34DF400430961 /* CZCarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,9 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D4AE2F021F31DCA0055F2ED /* ViewController.m in Sources */,
+				2D7FFB2A21F3532700430961 /* CZCarCell.m in Sources */,
 				2D4AE2E521F31CB10055F2ED /* CZCar.m in Sources */,
 				2D4AE2F321F324030055F2ED /* AppDelegate.m in Sources */,
-				2D4AE2E621F31CB10055F2ED /* CYCar.m in Sources */,
 				2D4AE2E721F31CB10055F2ED /* CYGroup.m in Sources */,
 				2D4AE2EB21F31D160055F2ED /* main.m in Sources */,
 			);
@@ -308,7 +340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cyc.dailypractice-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cyc.dailypractice-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
