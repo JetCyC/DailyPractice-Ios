@@ -10,15 +10,16 @@
 #import "CYGroup.h"
 #import "CZCar.h"
 #import "CZCarCell.h"
+#import "CZCarFooterview.h"
 
-@interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate>
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate,CZCarFooterViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-@property(nonatomic,strong) NSArray *groups;
+@property(nonatomic,strong) NSMutableArray *groups;
 @end
 @implementation ViewController
 
 //懒加载
--(NSArray *)groups{
+-(NSMutableArray *)groups{
     if (_groups==nil) {
         NSString *path=[[NSBundle mainBundle] pathForResource:@"car.plist" ofType:nil];
         NSArray *arrayDict=[NSArray arrayWithContentsOfFile:path];
@@ -44,7 +45,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //self.tableView.rowHeight=60;
-    NSLog(@"viewDidLoad%@",@"viewDidLoad");
+    //NSLog(@"viewDidLoad%@",@"viewDidLoad");
+    CZCarFooterview *footerView=[[[NSBundle mainBundle] loadNibNamed:@"CZCarFooterview" owner:nil options:nil] lastObject];
+    footerView.delegate=self;
+    self.tableView.tableFooterView=footerView;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -131,6 +136,17 @@
     
 }
 
-
-
+//CZCarFooterview的代理方法
+-(void)footerViewUpdateData:(CZCarFooterview *)footerView{
+    CYGroup *groups=[[CYGroup alloc]init];
+    groups.title=@"W";
+    CZCar *czcar=[[CZCar alloc]init];
+    czcar.icon=@"01";
+    czcar.name=@"新加入的";
+    NSMutableArray *carArray=[NSMutableArray array];
+    [carArray addObject:czcar];
+    groups.cars=carArray;
+    [self.groups addObject:groups];//加入源数据
+    [self.tableView reloadData];//刷新
+}
 @end
