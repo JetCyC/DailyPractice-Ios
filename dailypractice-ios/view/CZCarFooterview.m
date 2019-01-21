@@ -18,6 +18,12 @@
 
 @implementation CZCarFooterview
 
++ (instancetype)footerView{
+    CZCarFooterview *footerView=[[[NSBundle mainBundle] loadNibNamed:@"CZCarFooterview" owner:nil options:nil] lastObject];
+    return footerView;
+    
+}
+
 //- (void)awakeFromNib {
 //    [super awakeFromNib];
 //    // Initialization code
@@ -34,10 +40,16 @@
     self.bt_loadMore.hidden=YES;
     //2，显示等待指示器所在的那个UIview
     self.view_loding.hidden=NO;
-    //调用代理实现功能
-    if ([self.delegate respondsToSelector:@selector(footerViewUpdateData:)]) {
-        [self.delegate footerViewUpdateData:self];
-    }
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        //调用代理实现功能
+        if ([self.delegate respondsToSelector:@selector(footerViewUpdateData:)]) {
+            [self.delegate footerViewUpdateData:self];
+        }
+        self.bt_loadMore.hidden=NO;
+        self.view_loding.hidden=YES;
+    });
+    
     //3，增加一条数据
     //4，刷新uitableview
     

@@ -46,7 +46,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     //self.tableView.rowHeight=60;
     //NSLog(@"viewDidLoad%@",@"viewDidLoad");
-    CZCarFooterview *footerView=[[[NSBundle mainBundle] loadNibNamed:@"CZCarFooterview" owner:nil options:nil] lastObject];
+    
+    CZCarFooterview *footerView=[CZCarFooterview footerView];
+    
+    
     footerView.delegate=self;
     self.tableView.tableFooterView=footerView;
     

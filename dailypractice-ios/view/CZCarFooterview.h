@@ -15,5 +15,6 @@
 @end
 
 @interface CZCarFooterview : UITableViewCell
++ (instancetype)footerView;
 @property(nonatomic,weak)id<CZCarFooterViewDelegate> delegate;
 @end
