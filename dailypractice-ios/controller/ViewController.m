@@ -11,6 +11,7 @@
 #import "CZCar.h"
 #import "CZCarCell.h"
 #import "CZCarFooterview.h"
+#import "CZCarHeaderview.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate,CZCarFooterViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -52,6 +53,11 @@
     
     footerView.delegate=self;
     self.tableView.tableFooterView=footerView;
+
+    
+    CZCarHeaderview *headerView=[CZCarHeaderview headerView];
+    self.tableView.tableHeaderView=headerView;
+    
     
 }
 
