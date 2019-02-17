@@ -99,8 +99,8 @@
     //根据label中文字的内容，来动态计算label的文字的尺寸
     CGSize lb01Size=[self sizeWithText:lb01Name andMaxSize:CGSizeMake(MAXFLOAT, MAXFLOAT) andFont:nameFont];
     
-    CGFloat nameW=lb01Size.width;
-    CGFloat nameH=lb01Size.height;
+    CGFloat nameW=lb01Size.width+20;
+    CGFloat nameH=lb01Size.height+20;
     
     self.lb01.frame=CGRectMake(lb01X, margin, nameW, nameH);
     
@@ -120,7 +120,7 @@
 //        self.lb01.hidden=NO;
 //    }else{
 //        self.lb01.hidden=YES;
-        self.lb01.text=_czCars.name;
+    self.lb01.text=_czCars.name;
    // }
     self.lb02.text=[NSString stringWithFormat:@" ¥ %@",_czCars.name];
     self.lb03.text=[NSString stringWithFormat:@"%@ 人已购买",_czCars.name];
