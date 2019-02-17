@@ -85,9 +85,18 @@
     CZCar *car=group.cars[indexPath.row];
     //2设置单元格
     //2.1声名一个重用id
-    CZCarCell *cell=[CZCarCell carCellWithTableView:tableView];
-    cell.czCars=car;//设置cell的值
+    //CZCarCell *cell=[CZCarCell carCellWithTableView:tableView];
+    //cell.czCars=car;//设置cell的值
     //4返回单元格
+    
+    static NSString *ID=@"CZCarCell";
+    CZCarCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
+    if (cell==nil) {
+        cell=[[CZCarCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    cell.czCars=car;
+    
+    
     return cell;
 }
 
