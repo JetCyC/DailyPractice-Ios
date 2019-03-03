@@ -12,6 +12,7 @@
 #import "CZCarCell.h"
 #import "CZCarFooterview.h"
 #import "CZCarHeaderview.h"
+#import "DetailController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate,CZCarFooterViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -130,12 +131,17 @@
                             nil];
     //设置分割
     alertView.alertViewStyle=UIAlertViewStylePlainTextInput;
-    
+
     alertView.tag=indexPath.row;
     //
     [alertView textFieldAtIndex:0].text=czcar.name;
-    
+
     [alertView show];
+    
+//    NSLog(@"self.navigationController%@",self.navigationController);
+//    DetailController *detailController=[[DetailController alloc] init];
+//    [self.navigationController pushViewController:detailController animated:NO];
+    
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{

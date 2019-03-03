@@ -21,6 +21,8 @@
 		2D7FFB2A21F3532700430961 /* CZCarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FFB2921F3532700430961 /* CZCarCell.m */; };
 		2D7FFB2C21F4769B00430961 /* CZCarFooterview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFB2B21F4769B00430961 /* CZCarFooterview.xib */; };
 		2D7FFB2F21F47A2600430961 /* CZCarFooterview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FFB2E21F47A2600430961 /* CZCarFooterview.m */; };
+		2DA72EA8222C0518008396C2 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA72EA7222C0518008396C2 /* DetailController.m */; };
+		2DA72EAA222C06AF008396C2 /* detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA72EA9222C06AF008396C2 /* detail.storyboard */; };
 		2DAB757C2218044A0033B24C /* CZCarHeaderview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DAB757B2218044A0033B24C /* CZCarHeaderview.xib */; };
 		2DAB757F22180F750033B24C /* CZCarHeaderview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB757E22180F750033B24C /* CZCarHeaderview.m */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,9 @@
 		2D7FFB2D21F47A2600430961 /* CZCarFooterview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZCarFooterview.h; sourceTree = "<group>"; };
 		2D7FFB2E21F47A2600430961 /* CZCarFooterview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCarFooterview.m; sourceTree = "<group>"; };
 		2D9005B121F3034100C21EF9 /* dailypractice-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dailypractice-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA72EA6222C0518008396C2 /* DetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		2DA72EA7222C0518008396C2 /* DetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		2DA72EA9222C06AF008396C2 /* detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = detail.storyboard; sourceTree = "<group>"; };
 		2DAB757B2218044A0033B24C /* CZCarHeaderview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CZCarHeaderview.xib; sourceTree = "<group>"; };
 		2DAB757D22180F750033B24C /* CZCarHeaderview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZCarHeaderview.h; sourceTree = "<group>"; };
 		2DAB757E22180F750033B24C /* CZCarHeaderview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCarHeaderview.m; sourceTree = "<group>"; };
@@ -68,6 +73,8 @@
 			children = (
 				2D4AE2EE21F31DCA0055F2ED /* ViewController.h */,
 				2D4AE2EF21F31DCA0055F2ED /* ViewController.m */,
+				2DA72EA6222C0518008396C2 /* DetailController.h */,
+				2DA72EA7222C0518008396C2 /* DetailController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -97,6 +104,7 @@
 				2DAB757B2218044A0033B24C /* CZCarHeaderview.xib */,
 				2DAB757D22180F750033B24C /* CZCarHeaderview.h */,
 				2DAB757E22180F750033B24C /* CZCarHeaderview.m */,
+				2DA72EA9222C06AF008396C2 /* detail.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -206,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA72EAA222C06AF008396C2 /* detail.storyboard in Resources */,
 				2D4AE2E921F31CE60055F2ED /* car.plist in Resources */,
 				2D4AE2DD21F317380055F2ED /* Info.plist in Resources */,
 				2D4AE2ED21F31D6E0055F2ED /* Assets.xcassets in Resources */,
@@ -226,6 +235,7 @@
 			files = (
 				2D4AE2F021F31DCA0055F2ED /* ViewController.m in Sources */,
 				2D7FFB2A21F3532700430961 /* CZCarCell.m in Sources */,
+				2DA72EA8222C0518008396C2 /* DetailController.m in Sources */,
 				2D4AE2E521F31CB10055F2ED /* CZCar.m in Sources */,
 				2DAB757F22180F750033B24C /* CZCarHeaderview.m in Sources */,
 				2D4AE2F321F324030055F2ED /* AppDelegate.m in Sources */,
